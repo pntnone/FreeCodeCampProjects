@@ -1,0 +1,4 @@
+Hello World. I am trung. Hi im some from vietnam. and i'm here to learn vim.
+Hello World. I am trung. Hi imssome from vietnam. and i'm here to learn vim.
+Hi im some from vietnam. and i'm here to learn vim.
+Hello World. Hello World. 

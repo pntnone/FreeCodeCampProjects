@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SurveyForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="themes">
+        <input class="radio__input" type="radio" type="radio", value="option1" name="theme" id="option1">
+        <label class="radio__label" for="option1">Theme 1</label>
+        <input class="radio__input" type="radio" type="radio", value="option2" name="theme" id="option2">
+        <label class="radio__label" for="option2">Theme 2</label>
+        <input class="radio__input" type="radio" type="radio", value="option3" name="theme" id="option3">
+        <label class="radio__label" for="option3">Theme 3</label>
+
+    </div>
+    <section>
+        <div class="container">
+            <div class="form_content">
+                <h1 id="title">Clean Food Survey Form</h1>
+                <p id="description">Thank you for taking the time to help us improve the service</p>
+                <a href="" id="log-in">Log In</a>
+                <a id="know-more" href="#">Want To Know More Our Service !</a>
+
+            </div>
+            <div class="login_form">
+                <form id="survey-form" action="">
+                    <label for="name" id="name-label">Name</label>
+                    <input type="text" name="name" id="name" placeholder="enter your name" required>
+                    <label for="email" id="email-label">Email</label>
+                    <input type="email" name="email" id="email" placeholder="enter your email" required>
+                    <label for="age" id="number-label">Age</label>
+                    <input type="number" name="age" id="age" placeholder="enter your age">
+                    <fieldset id="current-role">
+                        <legend>Which option best describes your current need?</legend>
+                        <label for="thin">Thin</label>
+                        <input type="radio" id="thin" name="current-role" value="thin">
+                        <label for="normal">Normal</label>
+                        <input type="radio" id="normal" name="current-role" value="normal">
+                        <label for="fat">Fat</label>
+                        <input type="radio" id="fat" name="current-role" value="fat">
+                    </fieldset>
+                    <fieldset id="dropdown">
+                        <legend>Which option best describes your current need?</legend>
+                        <label for="slim">slim</label>
+                        <input type="radio" id="slim" name="aim-role" value="slim">
+                        <label for="bulky">bulky</label>
+                        <input type="radio" id="bulky" name="aim-role" value="bulky">
+                        <label for="athlete">athlete</label>
+                        <input type="radio" id="athlete" name="aim-role" value="athlete">
+                    </fieldset>
+                    <fieldset id="food">
+                        <legend>Which option best describes your current need?</legend>
+                        <label for="meat">Meat</label>
+                        <input type="checkbox" id="meat" name="meat" value="meat">
+                        <label for="vegetable">Vegetable</label>
+                        <input type="checkbox" id="vegetable" name="vegetable" value="vegetable">
+                        <label for="fat">Fatty Food</label>
+                        <input type="checkbox" id="fat-food" name="fat-food" value="fat-food">
+                    </fieldset>
+                    <label for="additional-info">Additional Information</label>
+                    <textarea name="additional-info" id="" cols="70" rows="3" placeholder="More Information..."></textarea>
+                    <input type="submit" id="submit">
+                </form>
+
+            </div>
+        </div>
+    </section>
+    <script src="scripts.js"></script>
+</body>
+</html>
